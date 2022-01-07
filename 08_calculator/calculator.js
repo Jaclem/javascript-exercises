@@ -59,8 +59,6 @@ const factorial = function() {
 };
 
 
-factorial(5);
-
 // Do not edit below this line
 module.exports = {
   add,
