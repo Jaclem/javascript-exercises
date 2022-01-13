@@ -9,13 +9,13 @@ const palindromes = function (string) {
 
     // checks if the reversed string is the same or different from the original
     if(strReplace != first){
+        console.log(false);
         return false;
     } else {
         return true;
     }
 };
 
-palindromes('A car, a man, a maraca.');
 
 // Do not edit below this line
 module.exports = palindromes;
