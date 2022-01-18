@@ -11,11 +11,12 @@ const books = [
 
 const getTheTitles = function() {
     let allTitles = [];
+    
     books.filter(book => {
         let titles = book.title;
         allTitles.push(titles);
         
-    })
+    });
     return allTitles;
 };
 
